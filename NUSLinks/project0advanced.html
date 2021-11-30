@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1> Project 0: Google Shortcuts </h1>
+        <div class="directory_container">
+            <button class="directory_button"><a href="project0.html"> Text Search </a></button>
+            <button class="directory_button"><a href="project0image.html"> Image Search </a></button>
+            <button class="directory_button"><a href="project0advanced.html"> Advanced Search </a></button>
+        </div>
+        <form class="search_form" method="get" action="https://google.com/search">
+            <label class="search_title" for="q"> Type your advanced search query: </label><br><br>
+            <label class="search_title" for="q"> all these words </label><br><br>
+            <input class="search_box" type="text" name="as_q"><br><br>
+            <label class="search_title" for="q"> exact word or phrase </label><br><br>
+            <input class="search_box" type="text" name="as_epq"><br><br>
+            <label class="search_title" for="q"> any of these words </label><br><br>
+            <input class="search_box" type="text" name="as_oq"><br><br>
+            <label class="search_title" for="q"> none of these words </label><br><br>
+            <input class="search_box" type="text" name="as_eq"><br><br>
+            <input class="search_button" type="submit" value="Advanced Search">
+            <input class="search_button" type="submit" name="btnI" value="I'm Feeling Lucky!" >
+        </form>
+    </body>
+</html>
